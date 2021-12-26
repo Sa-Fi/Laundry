@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.fab {
+  font-size: 20px;
+  background-color: white;
+  color: #29abe2;
+  border-radius: 50%;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  margin: 5px 0 0 5px;
+}
+.fab:hover {
+  color: rgba(235, 167, 40, 0.754);
+}
+.icon-head {
+  background-color: #29abe2;
+}
+.navbar-brand h3 {
+  font-family: "Playball", cursive;
+  font-weight: bolder;
+  font-size: 28px;
+}
+.nav-link {
+  font-family: "Baloo Bhai 2", cursive;
+  transition: 0.5s ease;
+}
+.nav-link:hover {
+  border-bottom: 2px solid black;
+}
+
+/* BANNER */
+#home {
+  background: url(image/homeslide.jpg);
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.box1 {
+  color: white;
+}
+.box1 h4 {
+  font-family: "Ranchers", cursive;
+}
+#home button {
+  color: #29abe2;
+  background-color: white;
+}
+#home button:hover {
+  color: white;
+  background-color: rgb(226, 163, 26);
+}
+.home-box2 {
+  background-color: #85dbff;
+  font-size: 13px;
+  padding: 10px 5px 0 20px;
+}
+.home-box3 {
+  background-color: #29abe2;
+  font-size: 13px;
+  padding: 10px 5px 0 20px;
+}
+.home-box4 {
+  background-color: #0071bc;
+  font-size: 13px;
+  padding: 10px 5px 0 20px;
+}
+
+/* CHOOSE SECTION   */
+.chose-title h4 {
+  color: #0071bc;
+  font-weight: bolder;
+  font-size: 23px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.chose-title p {
+  font-size: 12px;
+  color: #858282;
+  margin-top: 5px;
+}
+.fa {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #29abe2;
+  color: white;
+  padding: 23px;
+  font-size: 18px;
+  align-items: center;
+}
+
+.fa:hover {
+  background-color: rgb(212, 159, 23);
+}
+.chose-box h4 {
+  font-size: 14px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.chose-box p {
+  font-size: 12px;
+  font-weight: lighter;
+  font-family: "Open Sans", sans-serif;
+  color: #b3b3b3;
+  margin-top: 15px;
+}
+
+/* SERVICE SECTION   */
+.service-title h4 {
+  color: #0071bc;
+  font-weight: bolder;
+  font-size: 23px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.service-title p {
+  font-size: 12px;
+  color: #858282;
+  margin-top: 5px;
+}
+.service-box {
+  text-align: right;
+  margin-right: 10px;
+}
+.service-box h3 {
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: "Playball", cursive;
+}
+.service-left p {
+  font-size: 12px;
+}
+.service-right {
+  border-color: #0071bc;
+}
+
+.service-right img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.img-box img {
+  height: 80vh;
+}
+.img-box {
+  margin-top: -40px;
+}
+
+/* PROGRESS SECTION  */
+#progress {
+  background-image: url(image/GR.jpg);
+  width: 100%;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+}
+.progress-icon {
+  padding: 4px;
+  border: 3px;
+}
+.progress-icon:hover {
+  background-color: #004979;
+}
+.progress-icon .fa {
+  background: transparent;
+  font-size: 25px;
+}
+.progress-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.progress-box span {
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: weight;
+  margin-top: 5px;
+}
+.progress-box span p {
+  font-family: "Potta One", cursive;
+  font-weight: weight;
+}
+.progress-box p {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Potta One", cursive;
+}
+
+/* /* TESTOMONIAL SECTION  *    / */
+.testomonial-title h4 {
+  color: #0071bc;
+  font-weight: bolder;
+  font-size: 23px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.testomonial-title p {
+  font-size: 12px;
+  color: #858282;
+  margin-top: 5px;
+}
+.test-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+}
+.testomonial-left h4 {
+  font-size: 16px;
+  margin-top: 4px;
+  font-weight: bolder;
+  font-family: "Ranchers", cursive;
+}
+.testomonial-left p {
+  font-size: 12px;
+  margin-top: 2px;
+  color: #b3b3b3;
+}
+
+.testomonial-right p {
+  font-size: 11px;
+  color: #b3b3b3;
+}
+.testomonial-right a {
+  font-size: 11px;
+  font-weight: lighter;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+/* Buyer Section  */
+#Buyer {
+  background-color: #29abe2;
+  width: 100%;
+  height: 50vh;
+}
+.buyer-box {
+  margin-top: 80px;
+}
+
+/* NEws SEction */
+.news-icon {
+  transform: translate(180px, -27px);
+  font-size: 13px;
+}
+.news-body h6 {
+  color: #29abe2;
+  font-weight: bold;
+  font-family: "Ranchers", cursive;
+  font-size: 15px;
+}
+.news-body p {
+  padding: 10px 0 5px 0;
+  font-size: 14px;
+  color: #858282;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.news-footer {
+  font-size: 10px;
+  color: #29abe2;
+  font-family: "Cormorant Unicase", serif;
+}
+/* FOOIER SECTION  */
+
+.horiline {
+  background-color: white;
+  height: 1px;
+  width: 10px;
+  color: white;
+}
+.post h4 {
+  font-weight: lighter;
+  font-family: "Ranchers", cursive;
+}
+.footer-title h4 {
+  font-weight: lighter;
+  font-family: "Ranchers", cursive;
+}
+.footer-title span {
+  display: block;
+  height: 2px;
+  background-color: white;
+  width: 70px;
+  margin-bottom: 5px;
+}
